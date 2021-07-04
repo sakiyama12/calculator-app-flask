@@ -1,0 +1,27 @@
+body {
+    width: 500px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+textarea {
+    width: 100%;
+}
+
+table.list {
+    width: 100%;
+    border: 1px solid #3335360e;
+    text-align: center;
+}
+
+table.list tr:nth-child(even) {
+    background-color: rgba(223, 221, 221, 0.842);
+}
+table.list th {
+    padding: 0.5em 10px;
+    background-color: rgba(70, 72, 223, 0.466);
+}
+table.list td {
+    padding: 0.5em 10px;
+    vertical-align: top;
+}
